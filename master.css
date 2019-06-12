@@ -26,16 +26,28 @@
 
 
 /* BLOCCO STEPS */
-#steps .row > .left,
-#steps .row > .central,
-#steps .row > .right{
-  float: left;
-  width: 33%;
-}
 
+/* regole per visualizzazione desktop */
 #steps{
   text-align: center;
 }
+
+#steps h1 {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+#steps h3 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+/* regole per visualizzazione tablet/smartphone */
+
+
+
+
+
 
 /* BLOCCO PERCHE */
 #why {
