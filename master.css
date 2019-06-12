@@ -1,75 +1,54 @@
+/* REGOLE COMUNI */
+img {
+  height: 200px;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+h3 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+#lezioni, #steps, #why {
+  text-align: center;
+}
+
 /* BLOCCO LEZIONI */
 
 /* regole per visualizzazione desktop */
 #lezioni {
   background-color: #f9f9f9;
-  text-align: center;
   margin-top: 30px;
 }
 
-#lezioni h1 {
-  padding-top: 30px;
-  padding-bottom: 25px;
-}
-
-#lezioni h3 {
-  padding-top: 25px;
-  padding-bottom: 10px;
-}
-
-/* regole per visualizzazione tablet/smartphone */
+/* regole per visualizzazione tablet/smartphone (uguali per tutti i blocchi) */
 .col-md-12 p, .col-xs-12 p {
   padding-bottom: 30px;
   margin: 0 7%;
 }
 
 
-
 /* BLOCCO STEPS */
 
+
+
+/* BLOCCO WHY */
 /* regole per visualizzazione desktop */
-#steps{
-  text-align: center;
-}
-
-#steps h1 {
-  padding-top: 30px;
-  padding-bottom: 25px;
-}
-
-#steps h3 {
-  padding-top: 25px;
-  padding-bottom: 10px;
-}
-
-/* regole per visualizzazione tablet/smartphone */
-
-
-
-
-
-
-/* BLOCCO PERCHE */
 #why {
-  text-align: center;
+  background-color: #f9f9f9;
 }
 
-#why .row > .first,
-#why .row > .second,
-#why .row > .third {
-  width: 100%;
-  margin-top: 80px;
+#why .col-lg-4 img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  margin-top: 20px;
 }
 
-#why .row img {
-  background-color:#428bca;
-  border-radius:50%;
-  padding:30px
-}
-
-/* COMMON */
-
-
-img{
-  height: 200px;
+.col-lg-4 hr {
+  display: none;
 }
