@@ -7,7 +7,7 @@
 }
 
 .container{
-  max-width: 1170px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -134,7 +134,7 @@
 
 /*tablet version */
 
-@media all and (min-width: 769px) and (max-width: 991px) {
+@media all and (min-width: 769px) and (max-width: 992px) {
 
   .col-md-1{
     width: calc((100% / 12) * 1);
